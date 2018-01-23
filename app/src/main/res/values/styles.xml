@@ -8,11 +8,6 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-
-    <!-- Splash Background before app start up -->
-    <style name="MySplashTheme" parent="MyAppTheme">
-         </style>
-
     <!-- Application Theme -->
     <style name="MyAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="windowActionBar">false</item>
@@ -24,6 +19,12 @@
     <style name="MyAppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
 
     <style name="MyAppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <!-- Splash Background before app start up -->
+    <style name="MySplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkSplash</item>
+    </style>
+
 
 </resources>
 
